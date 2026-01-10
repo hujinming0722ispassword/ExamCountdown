@@ -48,7 +48,7 @@ def lazy_load_single_exam():
 def lazy_load_multi_day_set():
     """懒加载多日考试设置模块并执行"""
     from multi_day_exam import Settonsofday
-    root.destroy()  # 关闭主窗口
+    
     Settonsofday()
 
 def lazy_load_multi_day_start():
